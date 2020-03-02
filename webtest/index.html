@@ -3,7 +3,8 @@
 <title>Testing</title>
     </head>
     <body>
-      <p id="words">0</p><script>
+      <p id="words">0</p>
+      <script>
       console.log("testing");
       var string = "";
       for (var i = 0; i < 10; i++) {
@@ -18,7 +19,17 @@
         if (insideP < 6) {
           p.innerHTML =(insideP += 1);
         }
+
       });
+      function a(i) {
+        if (i % 2 === 0){
+          console.log("even");
+        } else {
+          console.log("odd");
+        }
+      }
+      a(3);
+      a(2);
     </script>
   </body>
 
